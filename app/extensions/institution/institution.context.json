@@ -1,0 +1,17 @@
+{
+  "title": "Blog",
+  "description": "Contexto de Instituciones",
+  "conditions": {
+    "path": ["/institutions", "/institutions/*"]
+  },
+  "reactions": {
+    "panel": {
+      "page-header": [
+        {
+          "name": "navigation-institution-toolbar",
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

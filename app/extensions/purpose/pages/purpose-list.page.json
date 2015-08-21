@@ -1,0 +1,9 @@
+{
+  "path": "/purposes",
+  "title": "Lista de Propósitos ",
+  "description": "Todos los propósitos.",
+  "type": "list",
+  "itemType": "purpose",
+  "template": "/templates/simple.html",
+  "itemTemplate": "/templates/purpose-item.html"
+}

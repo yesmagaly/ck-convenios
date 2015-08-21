@@ -1,0 +1,8 @@
+{
+  "path": "/responsibles/create",
+  "title": "Nuevo responsable",
+  "type": "form",
+  "itemType": "responsible",
+  "formName": "type-responsible",
+  "redirect":"/responsibles"
+}

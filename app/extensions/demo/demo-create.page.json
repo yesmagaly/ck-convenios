@@ -1,0 +1,7 @@
+{
+  "path": "/demo/create",
+  "title": "Crear un blog",
+  "type": "form",
+  "itemType": "demo",
+  "formName": "type-demo"
+}

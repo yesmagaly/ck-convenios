@@ -1,0 +1,17 @@
+{
+  "title": "Blog",
+  "description": "Contexto de responsable",
+  "conditions": {
+    "path": ["/responsibles"]
+  },
+  "reactions": {
+    "panel": {
+      "page-header": [
+        {
+          "name": "navigation-responsible-toolbar",
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "database": "mongodb://localhost/ck-convenios",
+  "sessionSecret": "Yesica1234",
+  "application": {
+    "name": "Búsqueda de convenios"
+  },
+  "extensions": {
+    "demo": {},
+    "agreement": {},
+    "purpose": {},
+    "institution": {},
+    "entity": {},
+    "responsible": {},
+    "main": {},
+    "search": {}
+  }
+}

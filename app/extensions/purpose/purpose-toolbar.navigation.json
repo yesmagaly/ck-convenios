@@ -1,0 +1,23 @@
+{
+  "title": "Propósitos",
+  "template": "/templates/btn-group.html",
+  "classes": [
+    "btn-group-sm"
+  ],
+  "items": [
+    {
+      "title": "Nuevo propósito",
+      "url": "/purposes/create",
+      "classes": [
+        "btn-primary"
+      ]
+    },
+    {
+      "title": "Lista de propósitos",
+      "url": "/purposes",
+      "classes": [
+        "btn-info"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Convenios",
+  "template": "/templates/btn-group.html",
+  "classes": [
+    "btn-group-sm"
+  ],
+  "items": [
+    {
+      "title": "Nuevo convenio",
+      "url": "/agreements/create",
+      "classes": [
+        "btn-primary"
+      ]
+    },
+    {
+      "title": "Lista de convenios",
+      "url": "/agreements",
+      "classes": [
+        "btn-info"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "path": "/purposes/:id/edit",
+  "title": "Nuevo propósito",
+  "type": "form",
+  "itemType": "purpose",
+  "formName": "type-purpose",
+  "redirect":"/purposes"
+}

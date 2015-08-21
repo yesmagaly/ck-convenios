@@ -1,0 +1,43 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="panel-title">
+     {{item.title}}
+    </div>
+  </div>
+  <div class="panel-body panel-relative">
+    <dl class="dl-horizontal">
+      <dt>Responsable:</dt>
+      <dd>{{item.responsibles.name}}</dd>
+
+      <dt>Entidad responsable:</dt>
+      <dd>{{item.entities.name}}</dd>
+
+       <dt>Fecha de Suscripción:</dt>
+      <dd>{{item.suscription_date | date:"dd/MM/yyyy"}}</dd>
+
+    </dl>
+
+    <div class="box box-danger"></div>
+
+    <div class="box box-darkorange"></div>
+
+    <div class="box box-green"></div>
+
+    {{item.expired_date}}
+
+    {{expirado }}
+  </div>
+
+  <div class="panel-footer">
+    <div>
+      {{item.coverage}} | {{item.location}} | {{item.purpose.name}} | {{item.institution.name}}
+
+      <div class="pull-right">
+        <a href="/agreements/{{item.id}}/edit" class="btn btn-primary btn-xs">Editar</a>
+        <a ng-click="delete()" class="btn btn-danger btn-xs">Eliminar</a>
+      </div>
+    </div>
+
+
+  </div>
+</div>

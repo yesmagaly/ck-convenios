@@ -1,0 +1,9 @@
+{
+  "path": "/responsibles",
+  "title": "Lista de Responsables ",
+  "description": "Todos los responsables.",
+  "type": "list",
+  "itemType": "responsible",
+  "template": "/templates/simple.html",
+  "itemTemplate": "/templates/entity-item.html"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Entidad Responsable",
+  "template": "/templates/btn-group.html",
+  "classes": [
+    "btn-group-sm"
+  ],
+  "items": [
+    {
+      "title": "Nueva entidad",
+      "url": "/entities/create",
+      "classes": [
+        "btn-primary"
+      ]
+    },
+    {
+      "title": "Lista de entidad",
+      "url": "/entities",
+      "classes": [
+        "btn-info"
+      ]
+    }
+  ]
+}

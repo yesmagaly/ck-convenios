@@ -1,0 +1,17 @@
+{
+  "title": "Blog",
+  "description": "Contexto de Convenios",
+  "conditions": {
+    "path": ["/agreements*"]
+  },
+  "reactions": {
+    "panel": {
+      "page-header": [
+        {
+          "name": "navigation-agreements-toolbar",
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

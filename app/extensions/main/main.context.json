@@ -1,0 +1,18 @@
+{
+  "title": "Blog",
+  "description": "Contexto de entidad responsable",
+  "conditions": {
+    "path": ["/entities*", "/institutions*", "/purposes*", "/responsibles*"]
+  },
+  "reactions": {
+    "layout": "two-columns-3-9",
+    "panel": {
+      "sidebar": [
+        {
+          "name": "navigation-main-toolbar",
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

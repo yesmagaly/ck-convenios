@@ -1,0 +1,17 @@
+{
+  "name": "ck-convenios",
+  "version": "0.0.0",
+  "description": "Aplicación en Choko ",
+  "scripts": {
+    "start": "node_modules/.bin/choko start app/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "choko": "TallerWebSolutions/choko#taller-merge-master"
+  }
+}

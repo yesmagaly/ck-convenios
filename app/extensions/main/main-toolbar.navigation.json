@@ -1,0 +1,26 @@
+{
+  "title": "Menu",
+  "classes": [
+    "nav-pills",
+    "nav-stacked"
+  ],
+  "stacked": true,
+  "items": [
+    {
+      "title": "Entidades",
+      "url": "/entities"
+    },
+    {
+      "title": "Instituciones",
+      "url": "/institutions"
+    },
+    {
+      "title": "Propositos",
+      "url": "/purposes"
+    },
+    {
+      "title": "Responsables",
+      "url": "/responsibles"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Demo",
+  "description": "A demo",
+  "storage": "database",
+  "keyProperty": "id",
+  "fields": {
+    "id": {
+      "type": "id",
+      "title": "Tipos",
+      "internal": true
+    },
+    "name": {
+      "type": "text",
+      "title": "Otros",
+      "required": true
+    }
+  },
+  "access": {
+    "list": true,
+    "load": true,
+    "add": true,
+    "edit": true,
+    "delete": true
+  }
+}

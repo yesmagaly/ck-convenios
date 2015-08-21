@@ -1,0 +1,9 @@
+{
+  "path": "/entities",
+  "title": "Lista de Entidades Responsables ",
+  "description": "Todos las entidades responsables.",
+  "type": "list",
+  "itemType": "entity",
+  "template": "/templates/simple.html",
+  "itemTemplate": "/templates/entity-item.html"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Responsable",
+  "template": "/templates/btn-group.html",
+  "classes": [
+    "btn-group-sm"
+  ],
+  "items": [
+    {
+      "title": "Nuevo responsable",
+      "url": "/responsibles/create",
+      "classes": [
+        "btn-primary"
+      ]
+    },
+    {
+      "title": "Lista de responsables",
+      "url": "/responsibles",
+      "classes": [
+        "btn-info"
+      ]
+    }
+  ]
+}

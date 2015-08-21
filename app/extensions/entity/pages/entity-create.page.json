@@ -1,0 +1,8 @@
+{
+  "path": "/entities/create",
+  "title": "Nueva entidad responsable",
+  "type": "form",
+  "itemType": "entity",
+  "formName": "type-entity",
+  "redirect":"/entities"
+}

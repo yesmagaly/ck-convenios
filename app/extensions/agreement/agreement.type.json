@@ -1,0 +1,141 @@
+{
+  "title": "Agreement",
+  "description": "A demo",
+  "storage": "database",
+  "keyProperty": "id",
+  "fields": {
+    "id": {
+      "type": "id",
+      "title": "Id",
+      "internal": true
+    },
+    "title": {
+      "type": "text",
+      "title": "Título",
+      "element": {
+        "type": "textarea",
+        "rows": 4
+      },
+      "maxLength": 400,
+      "required": true,
+      "weight": -40
+    },
+    "objectives": {
+      "type": "text",
+      "title": "Objetivos",
+      "element": {
+        "type": "textarea",
+        "rows": 6
+      },
+      "required": true,
+      "weight": -35
+    },
+    "responsibles": {
+      "title": "Responsable",
+      "type": "reference",
+      "reference": {
+        "type": "responsible",
+        "titleField": "name"
+      },
+      "required": true
+    },
+    "location": {
+      "type": "text",
+      "title": "Localización",
+      "options": {
+        "internacional": "Internacional",
+        "nacional": "Nacional",
+        "local": "Local"
+      },
+      "required": true,
+      "weight": -20
+    },
+    "coverage": {
+      "type": "text",
+      "title": "Cobertura",
+      "options": {
+        "marco": "Marco",
+        "especifico": "Específico"
+      },
+      "required": true,
+      "weight": -30
+    },
+     "institution": {
+      "title": "Institución",
+      "type": "reference",
+      "reference": {
+        "type": "institution",
+        "titleField": "name"
+      },
+      "required": true,
+      "weight": -15
+    },
+     "suscription_date": {
+      "type": "date",
+      "title": "Fecha de suscripción",
+      "required": true
+    },
+     "rectory_resolution": {
+      "type": "text",
+      "title": "Resolución rectoral",
+      "required": true
+    },
+      "state": {
+      "type": "number",
+      "title": "Estado" ,
+      "required": true
+    },
+
+    "validity": {
+      "type": "text",
+      "title": "Vigencia",
+      "required": true
+    },
+    "purpose": {
+      "title": "Propósito",
+      "type": "reference",
+      "reference": {
+        "type": "purpose",
+        "titleField": "name"
+      },
+      "required": true,
+      "weight": -25
+    },
+    "is_undefined": {
+      "type": "number",
+      "title": "Indefinido",
+      "required": true
+    },
+    "expired_date": {
+      "type": "date",
+      "title": "Fecha de expiración",
+      "required": true
+    },
+    "entities": {
+      "title": "Entidad responsable",
+      "type": "reference",
+      "reference": {
+        "type": "entity",
+        "titleField": "name"
+      },
+      "required": true
+    },
+    "created": {
+      "type": "date",
+      "title": "Fecha de creación",
+      "internal": true
+    },
+    "updated": {
+      "type": "date",
+      "title": "Fecha de actualización",
+      "internal": true
+    }
+  },
+  "access": {
+    "list": true,
+    "load": true,
+    "add": true,
+    "edit": true,
+    "delete": true
+  }
+}

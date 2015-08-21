@@ -1,0 +1,8 @@
+{
+  "path": "/entities/:id/edit",
+  "title": "Nuevo propósito",
+  "type": "form",
+  "itemType": "entity",
+  "formName": "type-entity",
+  "redirect":"/entities"
+}

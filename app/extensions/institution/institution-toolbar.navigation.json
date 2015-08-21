@@ -1,0 +1,23 @@
+{
+  "title": "Instituciones",
+  "template": "/templates/btn-group.html",
+  "classes": [
+    "btn-group-sm"
+  ],
+  "items": [
+    {
+      "title": "Nueva institución",
+      "url": "/institutions/create",
+      "classes": [
+        "btn-primary"
+      ]
+    },
+    {
+      "title": "Lista de instituciones",
+      "url": "/institutions",
+      "classes": [
+        "btn-info"
+      ]
+    }
+  ]
+}

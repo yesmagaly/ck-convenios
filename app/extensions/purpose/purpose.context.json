@@ -1,0 +1,17 @@
+{
+  "title": "Blog",
+  "description": "Contexto de Propósito",
+  "conditions": {
+    "path": ["/purposes", "/purposes/*"]
+  },
+  "reactions": {
+    "panel": {
+      "page-header": [
+        {
+          "name": "navigation-purpose-toolbar",
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

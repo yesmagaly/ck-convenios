@@ -1,0 +1,9 @@
+{
+  "path": "/institutions",
+  "title": "Lista de Instituciones ",
+  "description": "Todos las instituciones.",
+  "type": "list",
+  "itemType": "institution",
+  "template": "/templates/simple.html",
+  "itemTemplate": "/templates/institution-item.html"
+}

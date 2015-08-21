@@ -1,0 +1,8 @@
+{
+  "path": "/agreements/:id/edit",
+  "title": "Nuevo convenio",
+  "type": "form",
+  "itemType": "agreement",
+  "formName": "type-agreement",
+  "redirect": "/agreements"
+}

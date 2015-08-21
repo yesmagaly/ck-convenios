@@ -1,0 +1,8 @@
+{
+  "path": "/institutions/create",
+  "title": "Nueva institución",
+  "type": "form",
+  "itemType": "institution",
+  "formName": "type-institution",
+  "redirect":"/institutions"
+}

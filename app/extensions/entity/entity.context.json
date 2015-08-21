@@ -1,0 +1,17 @@
+{
+  "title": "Blog",
+  "description": "Contexto de entidad responsable",
+  "conditions": {
+    "path": ["/entities"]
+  },
+  "reactions": {
+    "panel": {
+      "page-header": [
+        {
+          "name": "navigation-entity-toolbar",
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Entidad Responsable",
+  "description": "A entity",
+  "storage": "database",
+  "keyProperty": "id",
+  "fields": {
+    "id": {
+      "type": "id",
+      "title": "Id",
+      "internal": true
+    },
+    "name": {
+      "type": "text",
+      "title": "Nombre",
+      "required": true
+    }
+  },
+  "access": {
+    "list": true,
+    "load": true,
+    "add": true,
+    "edit": true,
+    "delete": true
+  }
+}
