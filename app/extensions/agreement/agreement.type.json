@@ -41,7 +41,7 @@
     },
     "location": {
       "type": "text",
-      "title": "Localización",
+      "title": "Según tipo de Localización",
       "options": {
         "internacional": "Internacional",
         "nacional": "Nacional",
@@ -61,7 +61,7 @@
       "weight": -30
     },
      "institution": {
-      "title": "Institución",
+      "title": "Según tipo de Institución",
       "type": "reference",
       "reference": {
         "type": "institution",
@@ -95,7 +95,7 @@
       "required": true
     },
     "purpose": {
-      "title": "Propósito",
+      "title": "Según tipo de Propósito",
       "type": "reference",
       "reference": {
         "type": "purpose",
