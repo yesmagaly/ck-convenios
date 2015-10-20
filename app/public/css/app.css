@@ -6,15 +6,15 @@
   height: 50px;
   width: 10px;
   margin: 5px;
+
+  position: absolute;
+  left: -10px;
+  top: 10px;
 }
 
 .box-danger {
   border: 1px solid #ff4242;
   background-color: #ff4242;
-
-  position: absolute;
-  left: -10px;
-  top: 10px;
 }
 
 .box-darkorange {
@@ -26,4 +26,3 @@
   border: 1px green ;
   background-color: green;
 }
-
