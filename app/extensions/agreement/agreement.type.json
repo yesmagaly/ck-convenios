@@ -82,8 +82,8 @@
     },
     "state": {
       "type": "number",
-      "title": "Estado" ,
-      "required": true
+      "title": "Estado",
+      "internal": true
     },
 
     "validity": {
