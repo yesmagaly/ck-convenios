@@ -1,0 +1,11 @@
+{
+  "title": "Lumen",
+  "description": "Lumen global context.",
+  "weight": -5,
+  "conditions": {
+    "siteWide": true
+  },
+  "reactions": {
+    "theme": "xlumen"
+  }
+}

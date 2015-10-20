@@ -1,0 +1,9 @@
+{
+  "title": "Lumen",
+  "description": "A theme based on Bootswatch's Lumen theme.",
+  "thumbnail": "/lib/bootswatch/lumen/thumbnail.png",
+  "styles": [
+    "/lib/bootswatch/lumen/bootstrap.min.css",
+    "/lib/font-awesome/css/font-awesome.min.css"
+  ]
+}
