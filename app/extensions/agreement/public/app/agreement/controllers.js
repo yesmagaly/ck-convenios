@@ -1,13 +1,13 @@
 angular.module('agreement')
-
-  .controller('ItemAgreementController', ['$scope', '$controller', function ($scope, $controller) {
+  .controller('ItemAgreementController', [
+    '$scope',
+    '$controller',
+    function ($scope, $controller) {
 
     // Inherit ItemController.
     $controller('ItemController', {
       $scope: $scope
     });
-
-    console.log($scope.item);
 
     $scope.expirado = 'HOla';
 

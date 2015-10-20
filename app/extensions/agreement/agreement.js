@@ -15,10 +15,10 @@ var agreement = module.exports;
 agreement.find = function(type, query, callback) {
 
   if (type === 'agreement') {
-    query.populate('institution');
-    query.populate('entities');
-    query.populate('purpose');
-    query.populate('responsibles');
+    // query.populate('institution');
+    // query.populate('entities');
+    // query.populate('purpose');
+    // query.populate('responsibles');
   }
   callback();
 };

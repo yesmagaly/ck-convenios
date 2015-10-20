@@ -10,20 +10,16 @@
       <dd>{{item.responsibles.name}}</dd>
 
       <dt>Entidad responsable:</dt>
-      <dd>{{item.entities.name}}</dd>
+
+      <dd ng-repeat="entity in item.entities">{{entity.name}}</dd>
 
        <dt>Fecha de Suscripción:</dt>
       <dd>{{item.suscription_date | date:"dd/MM/yyyy"}}</dd>
 
     </dl>
 
-    <div class="box box-danger"></div>
-
+    <div class="box" ng-class="{'box-danger': isExpired, 'box-green': !isExpired }"></div>
     <div class="box box-darkorange"></div>
-
-    <div class="box box-green"></div>
-
-    {{item.expired_date}}
 
     {{expirado }}
   </div>
@@ -33,11 +29,10 @@
       {{item.coverage}} | {{item.location}} | {{item.purpose.name}} | {{item.institution.name}}
 
       <div class="pull-right">
+        <a href="/agreements/{{item.id}}/show" class="btn btn-success btn-xs">Show</a>
         <a href="/agreements/{{item.id}}/edit" class="btn btn-primary btn-xs">Editar</a>
         <a ng-click="delete()" class="btn btn-danger btn-xs">Eliminar</a>
       </div>
     </div>
-
-
   </div>
 </div>

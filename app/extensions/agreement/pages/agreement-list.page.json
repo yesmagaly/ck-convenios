@@ -5,5 +5,10 @@
   "type": "list",
   "itemType": "agreement",
   "template": "/templates/simple-agreement.html",
-  "itemTemplate": "/templates/agreement-item.html"
+  "itemTemplate": "/templates/agreement-item.html",
+  "requestParams": {
+    "populate": true,
+    "limit": 50,
+    "sort": {"title": "asc"}
+  }
 }

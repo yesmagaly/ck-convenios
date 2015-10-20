@@ -80,7 +80,7 @@
       "title": "Resolución rectoral",
       "required": true
     },
-      "state": {
+    "state": {
       "type": "number",
       "title": "Estado" ,
       "required": true
@@ -116,9 +116,9 @@
       "type": "reference",
       "reference": {
         "type": "entity",
-        "titleField": "name"
-      },
-      "required": true
+        "titleField": "name",
+        "multiple": true
+      }
     },
     "created": {
       "type": "date",

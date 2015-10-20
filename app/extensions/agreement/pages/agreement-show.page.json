@@ -1,0 +1,11 @@
+{
+  "path": "/agreements/:id/show",
+  "title": "Show convenio",
+  "type": "item",
+  "itemType": "agreement",
+  "template": "/templates/agreement-show.html",
+  "query":{},
+  "requestParams": {
+    "populate": true
+  }
+}
