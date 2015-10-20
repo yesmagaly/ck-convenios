@@ -2,7 +2,7 @@
   "database": "mongodb://localhost/ck-convenios",
   "sessionSecret": "Yesica1234",
   "application": {
-    "name": "Búsqueda de convenios"
+    "name": "Convenios Ágiles"
   },
   "extensions": {
     "demo": {},
@@ -12,6 +12,7 @@
     "entity": {},
     "responsible": {},
     "main": {},
-    "search": {}
+    "search": {},
+    "xlumen": {}
   }
 }
