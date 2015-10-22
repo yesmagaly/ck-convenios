@@ -1,4 +1,5 @@
 describe('agreement', function(){
+
   it('should display descriptions fields', function() {
     var agreementMenu = element(by.cssContainingText('.navbar-nav .ng-binding', 'Convenios'));
 
@@ -36,8 +37,24 @@ describe('agreement', function(){
       expect(elementField.isPresent()).toBe(true);
       expect(elementField.getText()).toContain(itemElement.description);
     });
-
-    browser.driver.sleep(3000);
-
   });
+
+
+  it('should display descriptions fields', function() {
+    var purposeField = element(by.cssContainingText('.ng-binding:nth-child(4)', 'Según tipo de Propósito'));
+    var institutionField = element(by.cssContainingText('.ng-scope:nth-child(7)', 'Según tipo de Institución'));
+    var localizeField = element(by.cssContainingText('.ng-scope:nth-child(6) .ng-binding', 'Según tipo de Localización'));
+
+    expect(purposeField.isPresent()).toBe(true);
+    expect(localizeField.isPresent()).toBe(true);
+    expect(institutionField.isPresent()).toBe(true);
+  });
+
+
+  it ('should not display descriptions fields', function() {
+    var stateField = element(by.css('#element-type-agreement-state'));
+
+    expect(stateField.isPresent()).toBe(false);
+  });
+
 });
