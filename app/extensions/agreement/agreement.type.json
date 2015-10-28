@@ -23,9 +23,10 @@
     "objectives": {
       "type": "text",
       "title": "Objetivos",
+      "maxLength": 10000,
       "element": {
-        "type": "textarea",
-        "rows": 6
+        "type": "wysiwyg",
+        "height": 300
       },
       "required": true,
       "weight": -35
