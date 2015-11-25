@@ -1,17 +1,17 @@
 {
-  "title": "Responsable",
-  "description": "A responsible",
-  "storage": "database",
-  "keyProperty": "id",
+  "title": "Responsible",
+  "standalone": false,
   "fields": {
-    "id": {
-      "type": "id",
-      "title": "Id",
-      "internal": true
-    },
     "name": {
       "type": "text",
       "title": "Nombre",
+      "weight": -40,
+      "required": true
+    },
+    "charge": {
+      "type": "text",
+      "title": "Cargo",
+      "weight": -35,
       "required": true
     }
   },

@@ -36,7 +36,9 @@
       "type": "reference",
       "reference": {
         "type": "responsible",
-        "titleField": "name"
+        "titleField": "name",
+        "inline": true,
+        "multiple": true
       },
       "required": true
     },
