@@ -66,8 +66,10 @@
       "type": "reference",
       "reference": {
         "type": "institution",
-        "titleField": "name"
+        "titleField": "name",
+        "multiple": true
       },
+      "element": "autocomplete",
       "required": true,
       "weight": -15
     },
