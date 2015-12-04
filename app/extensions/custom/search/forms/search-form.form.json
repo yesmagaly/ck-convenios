@@ -1,0 +1,52 @@
+{
+  "title": "Edit member form",
+  "description": "Edit member form",
+  "elements": [
+    {
+      "name": "title",
+      "title": "Título",
+      "type": "text",
+      "weight": 0
+    },
+    {
+      "name": "state",
+      "title": "Vigencia",
+      "type": "select",
+      "options": {
+        "all": "Vigente/Expirado",
+        "expired": "Expirado",
+        "validity": "Vigente"
+      },
+      "weight": 0
+    },
+    {
+      "name": "coverage",
+      "title": "Cobertura",
+      "type": "select",
+      "options": {
+        "all": "Marco/Específico",
+        "marco": "Marco",
+        "especific": "Específico"
+      },
+      "weight": 0
+    },
+    {
+      "name": "location",
+      "title": "Localización",
+      "type": "select",
+      "options": {
+        "international": "Internacional",
+        "national": "Nacional",
+        "local": "Local"
+      },
+      "weight": 0
+    },
+    {
+      "name": "submit",
+      "title": "Buscar",
+      "type": "submit",
+      "url": "/rest/organizations/query",
+      "weight": 20
+    }
+  ]
+}

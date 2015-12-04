@@ -1,5 +1,0 @@
-{
-  "title": "Modal",
-  "description": "Handle modal interactions.",
-  "dependencies": ["panel-loader"]
-}

@@ -1,0 +1,25 @@
+{
+  "title": "Edit member form",
+  "description": "Edit member form",
+  "elements": [
+    {
+      "name": "suscription-date-from",
+      "title": "De:",
+      "type": "date",
+      "weight": 0
+    },
+    {
+      "name": "suscription-date-to",
+      "title": "To:",
+      "type": "date",
+      "weight": 0
+    },
+    {
+      "name": "submit",
+      "title": "Ir",
+      "type": "submit",
+      "url": "/organization/members/[id|data]/edit",
+      "weight": 20
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-<div class="panel-wrapper" ng-repeat="panel in panels[panel.name] | orderBy:'weight'" ng-controller="PanelController" ng-include="template" ng-class="{'pull-right': !panel.stacked}"></div>
-
-<ul ng-controller="NavigationController" ng-class="panel.classes">
-  <li ng-repeat="item in data.items" ng-class="{active: isActive(item.url)}">
-    <a ng-click="isAbsolute(item.url) || Actions.do(item.action || item.url)" ng-attr-href="{{isAbsolute(item.url) ? item.url : '#'}}">
-      {{item.title}}
-    </a>
-  </li>
-</ul>

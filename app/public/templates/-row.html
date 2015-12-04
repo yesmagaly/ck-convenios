@@ -1,0 +1,13 @@
+<div ng-class="row.classes" class="clearfix">
+  <div
+    ng-if="row.region && !row.empty"
+    ng-include="'/templates/region.html'"
+    ng-controller="RegionController"></div>
+  <!-- Columns -->
+  <div class="column-{{column.name}} col-md-{{column.width}}"
+    ng-repeat="column in row.columns | orderBy:'weight'"
+    ng-if="!column.empty"
+    ng-controller="ColumnController"
+    ng-include="getTemplate()"
+    ng-class="column.classes"></div>
+</div>

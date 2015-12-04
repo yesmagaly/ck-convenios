@@ -15,6 +15,12 @@
           "name": "search-list",
           "weight": 10
         }
+      ],
+      "page-header": [
+        {
+          "name": "navigation-search-navigation",
+          "weight": 0
+        }
       ]
     }
   }

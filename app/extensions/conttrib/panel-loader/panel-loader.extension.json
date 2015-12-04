@@ -1,5 +1,0 @@
-{
-  "title": "Panel Loader",
-  "description": "Allow for the loading of panels trought ajax.",
-  "dependencies": ["layout", "panel"]
-}

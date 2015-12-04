@@ -1,4 +1,15 @@
 angular.module('ckAgreements', [
   'choko',
-  'agreement'
+
+
+
+    // Choko dependencies.
+  'action',
+  'dialog',
+  'panel-loader',
+  'modal',
+
+
+  'agreement',
+  'search'
 ]);

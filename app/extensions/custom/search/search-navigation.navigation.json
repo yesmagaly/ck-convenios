@@ -1,0 +1,11 @@
+{
+  "title": "Menu",
+  "items": [
+    {
+      "title": "Abrir modal",
+      "action": {
+        "modal": "suscription-interval-date-form"
+      }
+    }
+  ]
+}
