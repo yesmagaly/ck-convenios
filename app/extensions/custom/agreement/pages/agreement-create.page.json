@@ -4,5 +4,6 @@
   "type": "form",
   "itemType": "agreement",
   "formName": "type-agreement",
+  "extendController": "ExtendAgreementCtrl",
   "redirect": "/agreements"
 }

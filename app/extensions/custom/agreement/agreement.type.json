@@ -126,7 +126,8 @@
         "type": "entity",
         "titleField": "name",
         "multiple": true
-      }
+      },
+      "element": "autocomplete"
     },
     "created": {
       "type": "date",

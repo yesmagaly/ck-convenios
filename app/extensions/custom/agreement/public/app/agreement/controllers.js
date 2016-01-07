@@ -1,4 +1,5 @@
 angular.module('agreement')
+
   .controller('ItemAgreementController', [
     '$scope',
     '$controller',
@@ -16,4 +17,11 @@ angular.module('agreement')
 
     $scope.isExpired = true;
 
-  }]);
+  }])
+
+  .controller('ExtendAgreementCtrl', [
+    '$scope',
+    function ($scope) {
+      console.log('ExtendAgreementCtrl');
+    }
+  ]);
