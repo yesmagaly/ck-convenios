@@ -8,12 +8,12 @@
     "panel": {
       "content": [
         {
-          "name": "search-form",
-          "weight": 0
-        },
-        {
           "name": "search-list",
           "weight": 10
+        },
+        {
+          "name": "search-form",
+          "weight": 0
         }
       ],
       "page-header": [

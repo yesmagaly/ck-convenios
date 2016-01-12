@@ -4,5 +4,6 @@
   "type": "list",
   "itemType": "agreement",
   "template": "/templates/simple.html",
-  "itemTemplate": "/templates/agreement-item.html"
+  "itemTemplate": "/templates/agreement-item.html",
+  "extendController": "SearchListCtrl"
 }
