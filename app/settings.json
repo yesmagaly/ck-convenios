@@ -5,6 +5,12 @@
     "name": "Convenios Ágiles"
   },
   "extensions": {
+
+    "action": {},
+    "dialog": {},
+    "modal": {},
+    "panel-loader": {},
+
     "demo": {},
     "agreement": {},
     "purpose": {},

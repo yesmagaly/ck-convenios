@@ -1,0 +1,19 @@
+{
+  "title": "Edit member form",
+  "description": "Edit member form",
+  "elements": [
+    {
+      "name": "name",
+      "title": "Nombre",
+      "type": "text",
+      "weight": 0
+    },
+    {
+      "name": "submit",
+      "title": "Guardar",
+      "type": "submit",
+      "url": "/organization/members/[id|data]/edit",
+      "weight": 20
+    }
+  ]
+}

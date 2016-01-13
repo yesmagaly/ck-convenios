@@ -1,0 +1,5 @@
+{
+  "title": "Dialog",
+  "description": "Dialog interface based on modals and actions.",
+  "dependencies": ["modal", "action"]
+}

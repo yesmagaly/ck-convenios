@@ -1,0 +1,27 @@
+{
+  "title": "Blog",
+  "description": "Contexto de Convenios",
+  "conditions": {
+    "path": ["/home"]
+  },
+  "reactions": {
+    "panel": {
+      "content": [
+        {
+          "name": "search-list",
+          "weight": 10
+        },
+        {
+          "name": "search-form",
+          "weight": 0
+        }
+      ],
+      "page-header": [
+        {
+          "name": "navigation-search-navigation",
+          "weight": 0
+        }
+      ]
+    }
+  }
+}

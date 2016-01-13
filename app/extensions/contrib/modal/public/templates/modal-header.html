@@ -1,0 +1,7 @@
+<button type="button" class="close"
+  ng-click="dismiss(panel.name, row.name)">×</button>
+<h4 class="modal-title">
+  <i ng-if="panel.icon" ng-class="panel.icon" class="fa panel-title-icon"></i>
+  {{modalTitle}}
+  <small ng-if="panel.subtitle && panel.subtitle !== 'null'">{{panel.subtitle}}</small>
+</h4>

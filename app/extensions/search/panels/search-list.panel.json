@@ -1,8 +1,0 @@
-{
-  "title": "Resultados",
-  "description": "Todos los convenios.",
-  "type": "list",
-  "itemType": "agreement",
-  "template": "/templates/simple.html",
-  "itemTemplate": "/templates/agreement-item.html"
-}

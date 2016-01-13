@@ -1,0 +1,19 @@
+{
+  "title": "Edit member form",
+  "description": "Edit member form",
+  "elements": [
+    {
+      "name": "title",
+      "title": "Título",
+      "type": "text",
+      "weight": 0
+    },
+    {
+      "name": "submit",
+      "title": "Buscar",
+      "type": "submit",
+      "url": "/rest/organizations/query",
+      "weight": 20
+    }
+  ]
+}

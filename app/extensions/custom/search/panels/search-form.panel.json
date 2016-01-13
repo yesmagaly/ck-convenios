@@ -1,0 +1,5 @@
+{
+  "type": "form",
+  "formName": "search-form",
+  "extendController": "SearchFormCtrl"
+}
