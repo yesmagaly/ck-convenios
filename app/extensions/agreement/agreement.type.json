@@ -37,10 +37,10 @@
       "reference": {
         "type": "responsible",
         "titleField": "name",
+        "itemTemplate": "/templates/responsible-reference-inline-item.html",
         "inline": true,
         "multiple": true
-      },
-      "required": true
+      }
     },
     "location": {
       "type": "text",
