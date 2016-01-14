@@ -1,0 +1,22 @@
+{
+  "id":"22",
+
+  "institution_type":"Universidades",
+  "coverage_type":"Espec\u00edfico",
+  "offices":[
+    {
+      "id":"10",
+      "name":"Rector"
+    }
+  ],
+  "expired_date":"2024-12-03",
+
+  "location_type":"Internacional",
+  "objetives":"Establecer los lasos de colaboraci\u00f3n entre la UNTA, UNSAAC, UCSM, UNTAC, y UTO, a fin de lograr el apoyo en infraestructura, asesoramiento t\u00e9cnico - cient\u00edfico, intercambio de personal docente e investigador, desarrollo de proyectos de Investigaci\u00f3n y docencia, conforme a programas y acciones concretas que se estipularan en los acuerdos de actividades a suscribir al amparo del presente convenio.  ",
+  "purpose_type":"Cooperaci\u00f3n",
+  "rectory_resolution":"sin resoluci\u00f3n",
+  "responsible":"Rector",
+  "suscription_date":"1981-11-06",
+  "title":"CONVENIO DE COOPERACI\u00d3N ENTRE LAS UNIVERSIDADES T\u00c9CNICA DEL ALTIPLANO DE PUNO, UNIVERSIDAD SAN ANTONIO  DE CUSCO, UNIVERSIDAD PARTICUALAR DE SANTA MAR\u00cdA  DE AREQUIPA, UNIVERSIDAD NACIONAL DE TACNA, UNIVERSIDAD T\u00c9CNICA DE ORURO - BOLIVIA",
+  "validity":"indefinido"
+}

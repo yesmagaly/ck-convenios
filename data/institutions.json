@@ -1,0 +1,10 @@
+{
+  "3823e01c-c227-4c34-b082-79895d969ab4": {
+    "name":"Municipios",
+    "id":"3823e01c-c227-4c34-b082-79895d969ab4"
+  },
+  "dbe57014-a7fc-4334-b42f-97f60c2e544e":{
+    "name":"Compañias Mineras",
+    "id":"dbe57014-a7fc-4334-b42f-97f60c2e544e"
+  },
+  "67a3b4f2-1be1-462b-962c-f49e7b7e9a1f":{"name":"Direcciones Regionales de Salud","id":"67a3b4f2-1be1-462b-962c-f49e7b7e9a1f"},"b3575476-b054-4bd8-9f08-f35df32219b1":{"name":"Direcciones Regionales de Educación","id":"b3575476-b054-4bd8-9f08-f35df32219b1"},"b1dd3ce3-a9e6-4567-babb-8b6a65386762":{"name":"EsSalud","id":"b1dd3ce3-a9e6-4567-babb-8b6a65386762"},"dda331ef-c5df-4c22-92e4-3538ff6c3221":{"name":"Fundaciones","id":"dda331ef-c5df-4c22-92e4-3538ff6c3221"},"95062500-6a8b-4bac-ab4e-5c845fab70ef":{"name":"Ministerios","id":"95062500-6a8b-4bac-ab4e-5c845fab70ef"},"24afa6a7-ecea-41d0-ade6-b0ac8a918a6c":{"name":"ONG's","id":"24afa6a7-ecea-41d0-ade6-b0ac8a918a6c"},"2b7ce68e-6dfd-42ec-8bbd-72882f642b6e":{"name":"Gobierno Regionales","id":"2b7ce68e-6dfd-42ec-8bbd-72882f642b6e"},"fab6c635-ee0b-481f-92e6-8cf813955982":{"name":"Universidades","id":"fab6c635-ee0b-481f-92e6-8cf813955982"},"801ff148-aaea-4300-a22b-9de12a7258f6":{"name":"Unidades de Gestion Ejecutoras Locales (UGEL)","id":"801ff148-aaea-4300-a22b-9de12a7258f6"},"8ece2c3b-1c3a-4754-81fc-1ef245079115":{"name":"Otros","id":"8ece2c3b-1c3a-4754-81fc-1ef245079115"}}
