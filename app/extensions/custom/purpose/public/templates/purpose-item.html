@@ -2,11 +2,12 @@
   <div class="panel panel-default">
     <div class="panel-body">
       {{item.name}}
-      <div class=" pull-right">
-        <a href="/purposes/{{item.id}}/edit" class="btn btn-primary btn-xs">Ediar</a>
-        <a ng-click="delete()" class="btn btn-danger btn-xs">Eliminar</a>
-      </div>
+
+    </div>
+
+    <div class=" panel-footer">
+      <a href="/purposes/{{item.id}}/edit" class="btn btn-primary btn-xs">Editar</a>
+      <a ng-click="delete()" class="btn btn-danger btn-xs">Eliminar</a>
     </div>
   </div>
 </div>
-
